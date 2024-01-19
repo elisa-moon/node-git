@@ -24,7 +24,6 @@ echo 'caohui' > first.txt
 git add .
 git commit -m 'caohui commit'
 
-..
 
 ```js
 
