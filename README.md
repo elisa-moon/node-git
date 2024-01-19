@@ -48,3 +48,6 @@ git bash（git bash提供的是类unit端，linux环境也可，不要windows cm
 (ps：克隆是支持本地克隆的，不仅是从github, gitlab, 也可以从计算机的共享文件里克隆其他同事的更新代码，无需经过其他服务器的远程仓库， git clone source dest中的source就是origin的默认地址，origin仅仅是一个默认的本地仓库名称，通过git remote add caohui <repoUrl>也可以改名/添加仓库caohui，之后执行更新就是git pull caohui dev表示拉取caohui仓库的dev分支)
 
 使用本地仓库测试是为了测试方便，不用操作dsm_frontend仓库，且demo功能的基础路径是完善的，另fetch-gitlab.js文件已经最低实现了git clone dsm_frontend成功，只需替换clone和pull的地址即可，最多有少许自行调试
+
+![1705669205181](https://github.com/elisa-moon/node-git/assets/75383505/a6b37752-3bf7-4d13-934c-26c4335a9b5f)
+
