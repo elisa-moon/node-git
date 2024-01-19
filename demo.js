@@ -1,4 +1,5 @@
-// 两个写法初探。在git bash执行脚本，测试可以在git clone成功（注意环境变量及脚本运行环境、权限）
+// 在git bash执行脚本，远程仓dsm_frontend在fetch-gtilab.js文件里可以clone成功
+
 const { exec } = require('child_process');
 const { promisify } = require('util');
 const path = require('path');
