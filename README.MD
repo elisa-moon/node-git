@@ -6,24 +6,27 @@
 
 #####  1、生成测试仓，就是远程仓库(相当于swagger所在的那个gitlab.ln.com/dsm/dsm_frontend,没注意这里输错没)
 
+```js
 mkdir source-gitlab
 cd source-gitlab
 git init 
 
-echo 'first' > first.txt  // 提交几次,供后面切换使用 
+ // 提交几次,供后面切换使用 
+echo 'first' > first.txt 
 git add .
 git commit -m 'first commit'
 
-echo 'second' > first.txt  // 提交几次,供后面切换使用 
+echo 'second' > first.txt
 git add .
 git commit -m 'second commit'
 
-echo 'caohui' > first.txt  // 提交几次,供后面切换使用 
+echo 'caohui' > first.txt 
 git add .
 git commit -m 'caohui commit'
 
 ...
 
+```js
 
 ##### 2、运行就能看到结果
 node demo dev
